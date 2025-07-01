@@ -1,41 +1,54 @@
 # Incident Response Playbook
 
-Instructions and procedures for handling cyber incidents.
-# 🧛 Dracula Cybersecurity Report
+# 🧛 Incident Response Playbook (Basic)
 
-_Confidential Report for Client Review_
-
----
-
-## 🗓️ Engagement Summary
-
-**Client Name:**  
-**Assessment Date:**  
-**Auditor:** Dracula Cyber Consulting  
-**Scope:** Network, Systems, Users, Policies  
-**Tools Used:** Nmap, PowerShell, OSINT Tools  
+_A practical guide to responding to cybersecurity incidents_
 
 ---
 
-## ⚠️ Key Findings
+## 🚨 Phase 1: Preparation
 
-| Category            | Finding                            | Risk Level | Recommendation               |
-|---------------------|-------------------------------------|------------|-------------------------------|
-| Network             | Open RDP port on firewall           | High       | Close port or restrict access |
-| Users               | No MFA for admin accounts           | High       | Enforce MFA immediately       |
-| Software            | Outdated antivirus                  | Medium     | Update or replace             |
-| Policy              | No incident response plan           | Medium     | Create and document IR plan   |
+- Assign incident response roles
+- Ensure IR contact info is current
+- Have backups tested and ready
+- Maintain updated asset inventory
 
 ---
 
-## 🧩 Recommendations & Next Steps
+## 🧯 Phase 2: Detection & Analysis
 
-- Patch all known vulnerabilities.
-- Implement least privilege access model.
-- Train staff on phishing and basic security hygiene.
-- Set quarterly security reviews with Dracula Cyber Consulting.
+- Identify suspicious behavior or alerts
+- Use logs and SIEM to trace source
+- Determine scope (systems/users affected)
+- Categorize incident (malware, phishing, breach, etc.)
 
 ---
 
-🩸 _“In the realm of shadows, vigilance is light.”_  
-— Dracula
+## 🧹 Phase 3: Containment & Eradication
+
+- Disconnect affected systems (if needed)
+- Change credentials and tokens
+- Remove malicious files/artifacts
+- Patch vulnerabilities
+
+---
+
+## 🔁 Phase 4: Recovery
+
+- Restore systems from clean backups
+- Monitor systems for re-infection
+- Communicate recovery to stakeholders
+
+---
+
+## 📖 Phase 5: Lessons Learned
+
+- Document full incident timeline
+- Identify gaps in response
+- Update this playbook and training
+- Share sanitized findings with team/client
+
+---
+
+🦇 Prepared by Dracula Cyber Consulting  
+
